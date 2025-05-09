@@ -14,4 +14,9 @@ public class FTException extends RuntimeException {
         ftException.setErrorMsg(message);
         return ftException;
     }
+
+    @Override
+    public String getMessage() {
+        return errorMsg;
+    }
 }

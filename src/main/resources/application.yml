@@ -4,7 +4,7 @@ flashTill:
     username: root
     password: root
     type: mysql
-    name: flashTill
+    name: flash_till
 
 server:
   port: 8888

@@ -7,7 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @Slf4j
-@SpringBootApplication(scanBasePackages = {"org.flash.till.*"})
+@SpringBootApplication(scanBasePackages = {"org.flash.till"})
 @MapperScan(basePackages = "org.flash.till.**.mapper")
 public class Application {
     public static void main(String[] args) {

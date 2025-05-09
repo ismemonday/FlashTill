@@ -48,5 +48,9 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
     testAnnotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-websocket', version: '3.3.4'
+    //图片压缩
+    implementation("net.coobird:thumbnailator:0.4.20")
+    //rbac
+    implementation 'org.springframework.boot:spring-boot-starter-security:2.7.6'
 
 }
